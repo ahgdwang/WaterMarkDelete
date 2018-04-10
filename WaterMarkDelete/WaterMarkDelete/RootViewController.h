@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface RootViewController : UIViewController
+#import <MBProgressHUD/MBProgressHUD.h>
+#import "PictureViewController.h"
+@interface RootViewController : UIViewController<UIImagePickerControllerDelegate,UINavigationControllerDelegate>
 
 @end

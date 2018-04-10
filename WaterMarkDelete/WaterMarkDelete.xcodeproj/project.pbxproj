@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02FFC9287830357AE6912A7D /* Pods_WaterMarkDeleteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A485555A54FF28FBBB17E6B9 /* Pods_WaterMarkDeleteTests.framework */; };
 		3E410AE020775091006DA214 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E410ADF20775091006DA214 /* AppDelegate.m */; };
 		3E410AE620775092006DA214 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E410AE420775092006DA214 /* Main.storyboard */; };
 		3E410AE820775099006DA214 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E410AE720775099006DA214 /* Assets.xcassets */; };
@@ -15,6 +16,22 @@
 		3E410AF820775099006DA214 /* WaterMarkDeleteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E410AF720775099006DA214 /* WaterMarkDeleteTests.m */; };
 		3E410B0320775099006DA214 /* WaterMarkDeleteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E410B0220775099006DA214 /* WaterMarkDeleteUITests.m */; };
 		3E410B12207750D8006DA214 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E410B11207750D8006DA214 /* RootViewController.m */; };
+		3E8A572C2079E93E00DDA2E0 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E8A572B2079E93E00DDA2E0 /* libc++.tbd */; };
+		3E8A572E2079E94600DDA2E0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E8A572D2079E94600DDA2E0 /* AVFoundation.framework */; };
+		3E8A57302079E95000DDA2E0 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E8A572F2079E94F00DDA2E0 /* CoreImage.framework */; };
+		3E8A57322079E96300DDA2E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E8A57312079E96300DDA2E0 /* CoreGraphics.framework */; };
+		3E8A57342079E96A00DDA2E0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E8A57332079E96A00DDA2E0 /* QuartzCore.framework */; };
+		3E8A57362079E97200DDA2E0 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E8A57352079E97200DDA2E0 /* Accelerate.framework */; };
+		3E8A57382079E97C00DDA2E0 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E8A57372079E97C00DDA2E0 /* CoreVideo.framework */; };
+		3E8A573A2079E98500DDA2E0 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E8A57392079E98500DDA2E0 /* CoreMedia.framework */; };
+		3E8A573C2079E98E00DDA2E0 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E8A573B2079E98E00DDA2E0 /* AssetsLibrary.framework */; };
+		3E8A57422079ED1E00DDA2E0 /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3E8A57412079ED1E00DDA2E0 /* UIImage+OpenCV.mm */; };
+		3E8A574C207A182500DDA2E0 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E8A574B207A182500DDA2E0 /* ImageIO.framework */; };
+		3E8A574E207A183C00DDA2E0 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E8A574D207A183C00DDA2E0 /* libz.tbd */; };
+		3E9EF9EC2077886800B18DE4 /* PictureViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3E9EF9EB2077886800B18DE4 /* PictureViewController.mm */; };
+		3E9EF9EF20779BE000B18DE4 /* ClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9EF9EE20779BE000B18DE4 /* ClipView.m */; };
+		7E592CA47C8387039BC92046 /* Pods_WaterMarkDeleteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4211EE8D3460798B5048A924 /* Pods_WaterMarkDeleteUITests.framework */; };
+		859EA409CB9A2C5B32AF354A /* Pods_WaterMarkDelete.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71EC092D29E47BEBF873E927 /* Pods_WaterMarkDelete.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +68,34 @@
 		3E410B0420775099006DA214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E410B10207750D8006DA214 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		3E410B11207750D8006DA214 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		3E8A572B2079E93E00DDA2E0 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		3E8A572D2079E94600DDA2E0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3E8A572F2079E94F00DDA2E0 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		3E8A57312079E96300DDA2E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3E8A57332079E96A00DDA2E0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3E8A57352079E97200DDA2E0 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		3E8A57372079E97C00DDA2E0 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		3E8A57392079E98500DDA2E0 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		3E8A573B2079E98E00DDA2E0 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		3E8A57402079ED1E00DDA2E0 /* UIImage+OpenCV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+OpenCV.h"; sourceTree = "<group>"; };
+		3E8A57412079ED1E00DDA2E0 /* UIImage+OpenCV.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+OpenCV.mm"; sourceTree = "<group>"; };
+		3E8A5743207A0B2000DDA2E0 /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+		3E8A574B207A182500DDA2E0 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		3E8A574D207A183C00DDA2E0 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		3E8A574F207A258500DDA2E0 /* WaterMarkDelete.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterMarkDelete.pch; sourceTree = "<group>"; };
+		3E9EF9EA2077886700B18DE4 /* PictureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictureViewController.h; sourceTree = "<group>"; };
+		3E9EF9EB2077886800B18DE4 /* PictureViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = PictureViewController.mm; sourceTree = "<group>"; };
+		3E9EF9ED20779BE000B18DE4 /* ClipView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClipView.h; sourceTree = "<group>"; };
+		3E9EF9EE20779BE000B18DE4 /* ClipView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClipView.m; sourceTree = "<group>"; };
+		4211EE8D3460798B5048A924 /* Pods_WaterMarkDeleteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaterMarkDeleteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BAAA442F94A7A24C6A3307E /* Pods-WaterMarkDeleteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterMarkDeleteTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WaterMarkDeleteTests/Pods-WaterMarkDeleteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		600D02087DEA53AE1D7EB913 /* Pods-WaterMarkDeleteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterMarkDeleteUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WaterMarkDeleteUITests/Pods-WaterMarkDeleteUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		71EC092D29E47BEBF873E927 /* Pods_WaterMarkDelete.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaterMarkDelete.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AB8ED2930F4DEC749E317FD /* Pods-WaterMarkDeleteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterMarkDeleteUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WaterMarkDeleteUITests/Pods-WaterMarkDeleteUITests.release.xcconfig"; sourceTree = "<group>"; };
+		959066A9B7D90C48302B0FFD /* Pods-WaterMarkDelete.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterMarkDelete.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WaterMarkDelete/Pods-WaterMarkDelete.debug.xcconfig"; sourceTree = "<group>"; };
+		A485555A54FF28FBBB17E6B9 /* Pods_WaterMarkDeleteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaterMarkDeleteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBDE110B2912D1A891931DAA /* Pods-WaterMarkDeleteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterMarkDeleteTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WaterMarkDeleteTests/Pods-WaterMarkDeleteTests.release.xcconfig"; sourceTree = "<group>"; };
+		CDD8DF8C97DEF91FB4114BE1 /* Pods-WaterMarkDelete.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterMarkDelete.release.xcconfig"; path = "Pods/Target Support Files/Pods-WaterMarkDelete/Pods-WaterMarkDelete.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +103,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E8A574E207A183C00DDA2E0 /* libz.tbd in Frameworks */,
+				3E8A574C207A182500DDA2E0 /* ImageIO.framework in Frameworks */,
+				3E8A573C2079E98E00DDA2E0 /* AssetsLibrary.framework in Frameworks */,
+				3E8A573A2079E98500DDA2E0 /* CoreMedia.framework in Frameworks */,
+				3E8A57382079E97C00DDA2E0 /* CoreVideo.framework in Frameworks */,
+				3E8A57362079E97200DDA2E0 /* Accelerate.framework in Frameworks */,
+				3E8A57342079E96A00DDA2E0 /* QuartzCore.framework in Frameworks */,
+				3E8A57322079E96300DDA2E0 /* CoreGraphics.framework in Frameworks */,
+				3E8A57302079E95000DDA2E0 /* CoreImage.framework in Frameworks */,
+				3E8A572E2079E94600DDA2E0 /* AVFoundation.framework in Frameworks */,
+				3E8A572C2079E93E00DDA2E0 /* libc++.tbd in Frameworks */,
+				859EA409CB9A2C5B32AF354A /* Pods_WaterMarkDelete.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02FFC9287830357AE6912A7D /* Pods_WaterMarkDeleteTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E592CA47C8387039BC92046 /* Pods_WaterMarkDeleteUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +144,8 @@
 				3E410AF620775099006DA214 /* WaterMarkDeleteTests */,
 				3E410B0120775099006DA214 /* WaterMarkDeleteUITests */,
 				3E410ADC20775091006DA214 /* Products */,
+				B991F3CF7352BB29FF1BECE2 /* Pods */,
+				BB9473284FE4CB292D1B9F23 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +171,13 @@
 				3E410AE920775099006DA214 /* LaunchScreen.storyboard */,
 				3E410AEC20775099006DA214 /* Info.plist */,
 				3E410AED20775099006DA214 /* main.m */,
+				3E9EF9EA2077886700B18DE4 /* PictureViewController.h */,
+				3E9EF9EB2077886800B18DE4 /* PictureViewController.mm */,
+				3E9EF9ED20779BE000B18DE4 /* ClipView.h */,
+				3E9EF9EE20779BE000B18DE4 /* ClipView.m */,
+				3E8A57402079ED1E00DDA2E0 /* UIImage+OpenCV.h */,
+				3E8A57412079ED1E00DDA2E0 /* UIImage+OpenCV.mm */,
+				3E8A574F207A258500DDA2E0 /* WaterMarkDelete.pch */,
 			);
 			path = WaterMarkDelete;
 			sourceTree = "<group>";
@@ -132,6 +200,41 @@
 			path = WaterMarkDeleteUITests;
 			sourceTree = "<group>";
 		};
+		B991F3CF7352BB29FF1BECE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				959066A9B7D90C48302B0FFD /* Pods-WaterMarkDelete.debug.xcconfig */,
+				CDD8DF8C97DEF91FB4114BE1 /* Pods-WaterMarkDelete.release.xcconfig */,
+				4BAAA442F94A7A24C6A3307E /* Pods-WaterMarkDeleteTests.debug.xcconfig */,
+				CBDE110B2912D1A891931DAA /* Pods-WaterMarkDeleteTests.release.xcconfig */,
+				600D02087DEA53AE1D7EB913 /* Pods-WaterMarkDeleteUITests.debug.xcconfig */,
+				7AB8ED2930F4DEC749E317FD /* Pods-WaterMarkDeleteUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BB9473284FE4CB292D1B9F23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E8A574D207A183C00DDA2E0 /* libz.tbd */,
+				3E8A574B207A182500DDA2E0 /* ImageIO.framework */,
+				3E8A5743207A0B2000DDA2E0 /* libc++.1.tbd */,
+				3E8A573B2079E98E00DDA2E0 /* AssetsLibrary.framework */,
+				3E8A57392079E98500DDA2E0 /* CoreMedia.framework */,
+				3E8A57372079E97C00DDA2E0 /* CoreVideo.framework */,
+				3E8A57352079E97200DDA2E0 /* Accelerate.framework */,
+				3E8A57332079E96A00DDA2E0 /* QuartzCore.framework */,
+				3E8A57312079E96300DDA2E0 /* CoreGraphics.framework */,
+				3E8A572F2079E94F00DDA2E0 /* CoreImage.framework */,
+				3E8A572D2079E94600DDA2E0 /* AVFoundation.framework */,
+				3E8A572B2079E93E00DDA2E0 /* libc++.tbd */,
+				71EC092D29E47BEBF873E927 /* Pods_WaterMarkDelete.framework */,
+				A485555A54FF28FBBB17E6B9 /* Pods_WaterMarkDeleteTests.framework */,
+				4211EE8D3460798B5048A924 /* Pods_WaterMarkDeleteUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +242,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E410B0720775099006DA214 /* Build configuration list for PBXNativeTarget "WaterMarkDelete" */;
 			buildPhases = (
+				6F49885E520C9B55AFCE23CC /* [CP] Check Pods Manifest.lock */,
 				3E410AD720775091006DA214 /* Sources */,
 				3E410AD820775091006DA214 /* Frameworks */,
 				3E410AD920775091006DA214 /* Resources */,
+				3284F5B162B5D46BB2D07E39 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -156,6 +261,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E410B0A20775099006DA214 /* Build configuration list for PBXNativeTarget "WaterMarkDeleteTests" */;
 			buildPhases = (
+				816E6246C10393202BECC6CD /* [CP] Check Pods Manifest.lock */,
 				3E410AEF20775099006DA214 /* Sources */,
 				3E410AF020775099006DA214 /* Frameworks */,
 				3E410AF120775099006DA214 /* Resources */,
@@ -174,6 +280,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E410B0D20775099006DA214 /* Build configuration list for PBXNativeTarget "WaterMarkDeleteUITests" */;
 			buildPhases = (
+				EC821002F57620F60E4EDCD9 /* [CP] Check Pods Manifest.lock */,
 				3E410AFA20775099006DA214 /* Sources */,
 				3E410AFB20775099006DA214 /* Frameworks */,
 				3E410AFC20775099006DA214 /* Resources */,
@@ -257,13 +364,95 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3284F5B162B5D46BB2D07E39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WaterMarkDelete/Pods-WaterMarkDelete-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GPUImage/GPUImage.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/OpenCV/opencv2.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GPUImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/opencv2.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WaterMarkDelete/Pods-WaterMarkDelete-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F49885E520C9B55AFCE23CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WaterMarkDelete-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		816E6246C10393202BECC6CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WaterMarkDeleteTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC821002F57620F60E4EDCD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WaterMarkDeleteUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3E410AD720775091006DA214 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3E410AEE20775099006DA214 /* main.m in Sources */,
+				3E9EF9EC2077886800B18DE4 /* PictureViewController.mm in Sources */,
+				3E9EF9EF20779BE000B18DE4 /* ClipView.m in Sources */,
 				3E410AE020775091006DA214 /* AppDelegate.m in Sources */,
+				3E8A57422079ED1E00DDA2E0 /* UIImage+OpenCV.mm in Sources */,
 				3E410B12207750D8006DA214 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,7 +514,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -360,6 +549,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -383,7 +574,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -416,6 +607,8 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -431,10 +624,19 @@
 		};
 		3E410B0820775099006DA214 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 959066A9B7D90C48302B0FFD /* Pods-WaterMarkDelete.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XJ5GDW35L8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WaterMarkDelete/WaterMarkDelete.pch;
 				INFOPLIST_FILE = WaterMarkDelete/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,10 +650,19 @@
 		};
 		3E410B0920775099006DA214 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD8DF8C97DEF91FB4114BE1 /* Pods-WaterMarkDelete.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XJ5GDW35L8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WaterMarkDelete/WaterMarkDelete.pch;
 				INFOPLIST_FILE = WaterMarkDelete/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -465,6 +676,7 @@
 		};
 		3E410B0B20775099006DA214 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BAAA442F94A7A24C6A3307E /* Pods-WaterMarkDeleteTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -483,6 +695,7 @@
 		};
 		3E410B0C20775099006DA214 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBDE110B2912D1A891931DAA /* Pods-WaterMarkDeleteTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -501,6 +714,7 @@
 		};
 		3E410B0E20775099006DA214 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 600D02087DEA53AE1D7EB913 /* Pods-WaterMarkDeleteUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WaterMarkDeleteUITests/Info.plist;
@@ -518,6 +732,7 @@
 		};
 		3E410B0F20775099006DA214 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AB8ED2930F4DEC749E317FD /* Pods-WaterMarkDeleteUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WaterMarkDeleteUITests/Info.plist;
