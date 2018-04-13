@@ -16,6 +16,9 @@
 		3E410AF820775099006DA214 /* WaterMarkDeleteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E410AF720775099006DA214 /* WaterMarkDeleteTests.m */; };
 		3E410B0320775099006DA214 /* WaterMarkDeleteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E410B0220775099006DA214 /* WaterMarkDeleteUITests.m */; };
 		3E410B12207750D8006DA214 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E410B11207750D8006DA214 /* RootViewController.m */; };
+		3E7FEF44207F08CE00AF773D /* HJImagesToVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7FEF42207F08CE00AF773D /* HJImagesToVideo.m */; };
+		3E7FEF46207F976D00AF773D /* TEST.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 3E7FEF45207F976D00AF773D /* TEST.MOV */; };
+		3E7FEF4A207F98D100AF773D /* 111.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 3E7FEF49207F98D100AF773D /* 111.MOV */; };
 		3E8A572C2079E93E00DDA2E0 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E8A572B2079E93E00DDA2E0 /* libc++.tbd */; };
 		3E8A572E2079E94600DDA2E0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E8A572D2079E94600DDA2E0 /* AVFoundation.framework */; };
 		3E8A57302079E95000DDA2E0 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E8A572F2079E94F00DDA2E0 /* CoreImage.framework */; };
@@ -30,6 +33,8 @@
 		3E8A574E207A183C00DDA2E0 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E8A574D207A183C00DDA2E0 /* libz.tbd */; };
 		3E9EF9EC2077886800B18DE4 /* PictureViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3E9EF9EB2077886800B18DE4 /* PictureViewController.mm */; };
 		3E9EF9EF20779BE000B18DE4 /* ClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9EF9EE20779BE000B18DE4 /* ClipView.m */; };
+		3EE813E4207CC40400AEA5CD /* VideoViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3EE813E3207CC40400AEA5CD /* VideoViewController.mm */; };
+		3EE813E7207CEC5900AEA5CD /* FramesShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE813E6207CEC5900AEA5CD /* FramesShowViewController.m */; };
 		7E592CA47C8387039BC92046 /* Pods_WaterMarkDeleteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4211EE8D3460798B5048A924 /* Pods_WaterMarkDeleteUITests.framework */; };
 		859EA409CB9A2C5B32AF354A /* Pods_WaterMarkDelete.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71EC092D29E47BEBF873E927 /* Pods_WaterMarkDelete.framework */; };
 /* End PBXBuildFile section */
@@ -68,6 +73,10 @@
 		3E410B0420775099006DA214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E410B10207750D8006DA214 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		3E410B11207750D8006DA214 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		3E7FEF42207F08CE00AF773D /* HJImagesToVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJImagesToVideo.m; sourceTree = "<group>"; };
+		3E7FEF43207F08CE00AF773D /* HJImagesToVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJImagesToVideo.h; sourceTree = "<group>"; };
+		3E7FEF45207F976D00AF773D /* TEST.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = TEST.MOV; sourceTree = "<group>"; };
+		3E7FEF49207F98D100AF773D /* 111.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 111.MOV; sourceTree = "<group>"; };
 		3E8A572B2079E93E00DDA2E0 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		3E8A572D2079E94600DDA2E0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		3E8A572F2079E94F00DDA2E0 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
@@ -87,6 +96,11 @@
 		3E9EF9EB2077886800B18DE4 /* PictureViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = PictureViewController.mm; sourceTree = "<group>"; };
 		3E9EF9ED20779BE000B18DE4 /* ClipView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClipView.h; sourceTree = "<group>"; };
 		3E9EF9EE20779BE000B18DE4 /* ClipView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClipView.m; sourceTree = "<group>"; };
+		3EE813E2207CC40400AEA5CD /* VideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		3EE813E3207CC40400AEA5CD /* VideoViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = VideoViewController.mm; sourceTree = "<group>"; };
+		3EE813E5207CEC5900AEA5CD /* FramesShowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FramesShowViewController.h; sourceTree = "<group>"; };
+		3EE813E6207CEC5900AEA5CD /* FramesShowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FramesShowViewController.m; sourceTree = "<group>"; };
+		3EE813E8207E0BF000AEA5CD /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4211EE8D3460798B5048A924 /* Pods_WaterMarkDeleteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaterMarkDeleteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BAAA442F94A7A24C6A3307E /* Pods-WaterMarkDeleteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterMarkDeleteTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WaterMarkDeleteTests/Pods-WaterMarkDeleteTests.debug.xcconfig"; sourceTree = "<group>"; };
 		600D02087DEA53AE1D7EB913 /* Pods-WaterMarkDeleteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterMarkDeleteUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WaterMarkDeleteUITests/Pods-WaterMarkDeleteUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -162,6 +176,9 @@
 		3E410ADD20775091006DA214 /* WaterMarkDelete */ = {
 			isa = PBXGroup;
 			children = (
+				3E7FEF49207F98D100AF773D /* 111.MOV */,
+				3E7FEF45207F976D00AF773D /* TEST.MOV */,
+				3E7FEF41207F08CE00AF773D /* HJImagesToVideo */,
 				3E410B10207750D8006DA214 /* RootViewController.h */,
 				3E410B11207750D8006DA214 /* RootViewController.m */,
 				3E410ADE20775091006DA214 /* AppDelegate.h */,
@@ -178,6 +195,10 @@
 				3E8A57402079ED1E00DDA2E0 /* UIImage+OpenCV.h */,
 				3E8A57412079ED1E00DDA2E0 /* UIImage+OpenCV.mm */,
 				3E8A574F207A258500DDA2E0 /* WaterMarkDelete.pch */,
+				3EE813E2207CC40400AEA5CD /* VideoViewController.h */,
+				3EE813E3207CC40400AEA5CD /* VideoViewController.mm */,
+				3EE813E5207CEC5900AEA5CD /* FramesShowViewController.h */,
+				3EE813E6207CEC5900AEA5CD /* FramesShowViewController.m */,
 			);
 			path = WaterMarkDelete;
 			sourceTree = "<group>";
@@ -200,6 +221,15 @@
 			path = WaterMarkDeleteUITests;
 			sourceTree = "<group>";
 		};
+		3E7FEF41207F08CE00AF773D /* HJImagesToVideo */ = {
+			isa = PBXGroup;
+			children = (
+				3E7FEF42207F08CE00AF773D /* HJImagesToVideo.m */,
+				3E7FEF43207F08CE00AF773D /* HJImagesToVideo.h */,
+			);
+			path = HJImagesToVideo;
+			sourceTree = "<group>";
+		};
 		B991F3CF7352BB29FF1BECE2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -216,6 +246,7 @@
 		BB9473284FE4CB292D1B9F23 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3EE813E8207E0BF000AEA5CD /* MBProgressHUD.framework */,
 				3E8A574D207A183C00DDA2E0 /* libz.tbd */,
 				3E8A574B207A182500DDA2E0 /* ImageIO.framework */,
 				3E8A5743207A0B2000DDA2E0 /* libc++.1.tbd */,
@@ -343,7 +374,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E410AEB20775099006DA214 /* LaunchScreen.storyboard in Resources */,
+				3E7FEF4A207F98D100AF773D /* 111.MOV in Resources */,
 				3E410AE820775099006DA214 /* Assets.xcassets in Resources */,
+				3E7FEF46207F976D00AF773D /* TEST.MOV in Resources */,
 				3E410AE620775092006DA214 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,8 +484,11 @@
 				3E410AEE20775099006DA214 /* main.m in Sources */,
 				3E9EF9EC2077886800B18DE4 /* PictureViewController.mm in Sources */,
 				3E9EF9EF20779BE000B18DE4 /* ClipView.m in Sources */,
+				3EE813E7207CEC5900AEA5CD /* FramesShowViewController.m in Sources */,
 				3E410AE020775091006DA214 /* AppDelegate.m in Sources */,
+				3EE813E4207CC40400AEA5CD /* VideoViewController.mm in Sources */,
 				3E8A57422079ED1E00DDA2E0 /* UIImage+OpenCV.mm in Sources */,
+				3E7FEF44207F08CE00AF773D /* HJImagesToVideo.m in Sources */,
 				3E410B12207750D8006DA214 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

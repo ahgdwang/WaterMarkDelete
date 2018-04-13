@@ -23,7 +23,7 @@ static void ProviderReleaseDataNOP(void *info, const void *data, size_t size)
     CGFloat cols = imageRotate.size.width;
     CGFloat rows = imageRotate.size.height;
     
-    static cv::Mat cvMat(rows, cols, CV_8UC4); // 8 bits per component, 4 channels
+    cv::Mat cvMat(rows, cols, CV_8UC4); // 8 bits per component, 4 channels
     
     CGContextRef contextRef = CGBitmapContextCreate(cvMat.data,                 // Pointer to backing data
                                                     cols,                      // Width of bitmap

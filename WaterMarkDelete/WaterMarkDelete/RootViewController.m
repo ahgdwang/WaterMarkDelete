@@ -17,6 +17,7 @@
 #pragma life circle
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     // Do any additional setup after loading the view.
     CGRect screen = [[UIScreen mainScreen] bounds];
     CGFloat button_width = 100;
@@ -64,13 +65,15 @@
 
 #pragma action
 - (void)onClickVideoButton{
-    
-//    UIImagePickerController *ipc = [[UIImagePickerController alloc] init];
-//    ipc.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;//sourcetype有三种分别是camera，photoLibrary和photoAlbum
-//    NSArray *availableMedia = [UIImagePickerController availableMediaTypesForSourceType:UIImagePickerControllerSourceTypeCamera];//Camera所支持的Media格式都有哪些,共有两个分别是@"public.image",@"public.movie"
-//    ipc.mediaTypes = [NSArray arrayWithObject:availableMedia[1]];//设置媒体类型为public.movie
-//    [self presentViewController:ipc animated:YES completion:nil];
-//    ipc.delegate = self;//设置委托
+//    VideoViewController *videoController = [[VideoViewController alloc] init];
+//    [self.navigationController pushViewController:videoController animated:YES];
+    //选择本地视频
+    UIImagePickerController *ipc = [[UIImagePickerController alloc] init];
+    ipc.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;//sourcetype有三种分别是camera，photoLibrary和photoAlbum
+    NSArray *availableMedia = [UIImagePickerController availableMediaTypesForSourceType:UIImagePickerControllerSourceTypeCamera];//Camera所支持的Media格式都有哪些,共有两个分别是@"public.image",@"public.movie"
+    ipc.mediaTypes = [NSArray arrayWithObject:availableMedia[1]];//设置媒体类型为public.movie
+    [self presentViewController:ipc animated:YES completion:nil];
+    ipc.delegate = self;//设置委托
 }
 
 - (void)onClickImageButton{
@@ -98,12 +101,27 @@
 }
 #pragma imagePickerDelegate
 -(void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info{
-    [picker dismissViewControllerAnimated:YES completion:nil];
-    UIImage *image = [info objectForKey:UIImagePickerControllerOriginalImage];
+    NSString *mediaType=[info objectForKey:UIImagePickerControllerMediaType];
     
-    PictureViewController *pictureViewController = [[PictureViewController alloc] init];
-    pictureViewController.image = image;
-    [self.navigationController pushViewController:pictureViewController animated:YES];
+    if ([mediaType isEqualToString:@"public.movie"]){
+        //如果是视频
+        NSURL *url = info[UIImagePickerControllerMediaURL];//获得视频的URL
+        NSLog(@"url %@",url);
+        VideoViewController *videoController = [[VideoViewController alloc] init];
+        videoController.videoUrl = url;
+        [self dismissViewControllerAnimated:YES completion:nil];
+        [picker dismissViewControllerAnimated:YES completion:nil];
+        [self.navigationController pushViewController:videoController animated:YES];
+    }else{
+        [self dismissViewControllerAnimated:YES completion:nil];
+        [picker dismissViewControllerAnimated:YES completion:nil];
+        UIImage *image = [info objectForKey:UIImagePickerControllerOriginalImage];
+        PictureViewController *pictureViewController = [[PictureViewController alloc] init];
+        pictureViewController.image = image;
+        [self.navigationController pushViewController:pictureViewController animated:YES];
+    }
+    
+
     
 }
 #pragma defineBySelf

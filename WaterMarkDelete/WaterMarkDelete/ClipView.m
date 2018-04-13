@@ -20,8 +20,8 @@
 -(id)init{
     self = [super init];
     if (self) {
-        self.alpha = 0.5;
-        self.backgroundColor = [UIColor blackColor];
+        self.alpha = 0.7;
+        self.backgroundColor = [UIColor redColor];
     }
     return self;
 }

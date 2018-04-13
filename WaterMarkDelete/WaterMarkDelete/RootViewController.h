@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <MBProgressHUD/MBProgressHUD.h>
 #import "PictureViewController.h"
+#import "VideoViewController.h"
 @interface RootViewController : UIViewController<UIImagePickerControllerDelegate,UINavigationControllerDelegate>
 
 @end
