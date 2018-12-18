@@ -14,6 +14,10 @@
 
 @implementation RootViewController
 
+- (void)test {
+    int a = 1;
+}
+
 #pragma life circle
 - (void)viewDidLoad {
     [super viewDidLoad];
